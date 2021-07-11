@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <style>
+ body
+ {
+ background-image:url('Book.jpg');
+ }
+ h1
+ {
+ color:green;
+ }
+ div
+ {
+ position:absolute;
+ left:700px;
+ }
+ fieldset
+ {
+ color:white;
+ }
+ input
+ {
+ background:transparent;
+ }
+ </style>
+  <title>Document</title>
+ </head>
+ <body>
+ <center> <h1>Search Book By Title</h1></center>
+    <div>
+	<fieldset style="height :30px ;width:250px">
+	<legend>Search Book By Title</legend>
+	<input style="border:0px;outline:0px">Serach Book By title</input>
+	</fieldset>
+	</div>
+ </body>
+</html>

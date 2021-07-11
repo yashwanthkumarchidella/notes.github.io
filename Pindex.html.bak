@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <style>
+ *{
+ margin:0px;
+ }
+ body{
+ background-image:url('Book.jpg');
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position:top;
+}
+#nav{
+height:55px;
+width:1280px;
+background-color:Black;
+}
+#child-container1
+{
+position:absolute;
+top:10px;
+left:200px;
+float:right;
+font-size:25px;
+}
+#child-container2
+{
+position:absolute;
+top:10px;
+left:400px;
+float:right;
+font-size:25px;
+}
+#child-container3
+{
+position:absolute;
+top:10px;
+left:800px;
+float:right;
+font-size:25px;
+}
+#child-container4
+{
+position:absolute;
+top:10px;
+left:1000px;
+float:right;
+font-size:25px;
+}
+a
+{
+text-Decoration:none;
+display:Block;
+}
+.link :hover
+{
+color:red;
+}
+h1
+{
+color:azure;
+}
+#main-container
+{
+position:absolute;
+top:120px;
+left:700px;
+}
+#child-container
+{
+position:absolute;
+top:180px;
+left:880px;
+}
+#child-container5
+{
+position:absolute;
+top:10px;
+left:0px;
+float:right;
+}
+
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Document</title>
+ </head>
+ <body>
+<div id="nav">
+   </div>
+    <center><h1>Remove Books</h1></center>
+   <div id="main-container">
+  <table>
+  <tr>
+  <td><h2>Book Title</h2></td>
+  <td><input></input></td>
+  </tr>
+  </table>
+   </div>
+       <div id="child-container">
+                   <input type="Button" value="Removebook"></input>
+		</div>
+         <div id="child-container1">
+                  <a href="D:\HTML\prj\pindex1.html">Library</a>
+         </div>
+           <div id="child-container2">    
+                    <a href="D:\HTML\prj\pindex2.html">Serach Book By title</a> 
+         </div>
+            <div id="child-container3"> 
+                      <a href="D:\HTML\prj\pindex3.html">Add Book</a>
+            </div>
+			<div id="child-container4">
+			<a href="" >Remove Book</a>
+           </div> 
+		   <div id="child-container5">
+		  <i class="fa fa-book"style="font-size:40px;color:blue"></i>
+		   <div>
+</body>
+</html>

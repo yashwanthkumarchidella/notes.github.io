@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <style>
+ body
+ {
+ background-image:url('Book.jpg');
+ }
+ #child-container 
+ {
+ position:absolute;
+ left:700px;
+ top:130px;
+ }
+input[type="text"]::placeholder 
+{
+padding-left: 40px;
+}
+select
+{
+padding-left:42px;
+}
+#child-container1
+{
+position:absolute;
+bottom:280px;
+left:800px;
+}
+		</style>
+   <title>Document</title>
+ </head>
+ <body>
+ <div id="main-container">
+                  <center><h1>Add Book Details</h1></center>
+  </div>
+  <div id="child-container">
+  <table>
+  <tr>
+	<td>Book Title</td>
+	<td><input type="text" placeholder="Book Title"></input></td>
+  </tr>
+  <tr>
+	<td>Book Author</td>
+	<td><input type="text" placeholder="BookAuthor"></input></td>
+  </tr>
+  <tr>
+	<td>Edition</td>
+	<td><input type="text" placeholder="Edition"></input></td>
+  </tr>
+  <tr>
+	<td>Book price</td>
+	<td><input type="text"  placeholder="Book Price"></input></td>
+  </tr>
+  <tr>
+	<td>Book Type</td>
+	<td>
+	<select style="border:opx ;height:20px;width:170px">
+	<option>Java</option>
+	<option>SQL</option>
+	<option>Aptitude</option>
+	<option>Web Technlogies</option>
+	</select>
+	</td>
+  </tr>
+  </table>
+  </div>
+  <div id="child-container1">
+  <input type="button" value="Add Details"></input>
+  </div>
+ </body>
+</html>
